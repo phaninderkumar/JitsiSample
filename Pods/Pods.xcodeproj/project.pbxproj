@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5B40FBDAD0AB75D17C4760F4054BFF71 /* JitsiMeetSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F617CE4545CE4E4DED6DEC4F2D3F8F38 /* Build configuration list for PBXAggregateTarget "JitsiMeetSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = JitsiMeetSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D2B519F89924EB6DE1D53CDEFD65EF54 /* Pods-JitsiSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B727DB98A1C6881297EC29277470AF6D /* Pods-JitsiSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE80A3B55EE2A3229ED6F8CA4552CFF3 /* Pods-JitsiSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9655C169E4F5BAED837E07DF43F5DD5 /* Pods-JitsiSample-dummy.m */; };
+		EA81BD008773DD4126730006013A55D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C70D153AB62CF1C609DE6B028C8392A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B40FBDAD0AB75D17C4760F4054BFF71;
+			remoteInfo = JitsiMeetSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0630991E76FA93F90FEDEEDE8FC7E9A8 /* Pods_JitsiSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JitsiSample.framework; path = "Pods-JitsiSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3B759F6B92685EB58950CCE5EEE4C8 /* Pods-JitsiSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JitsiSample-Info.plist"; sourceTree = "<group>"; };
+		2AB0F8B49CC410966B2D1592976B8DB7 /* Pods-JitsiSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JitsiSample.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63B880EF292C2EEEB17FDF6958156EF6 /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JitsiMeet.framework; path = Frameworks/JitsiMeet.framework; sourceTree = "<group>"; };
+		65913A1454BDF0EB8420198FF7B0700B /* Pods-JitsiSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JitsiSample-frameworks.sh"; sourceTree = "<group>"; };
+		7768B7114A4851E37A115F013690EF79 /* JitsiMeetSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JitsiMeetSDK.debug.xcconfig; sourceTree = "<group>"; };
+		7C71963EF10E2B2AB3D7F9FF8C9FFA79 /* Pods-JitsiSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JitsiSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		8849B74515F552F956F949D9F0D3E65C /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		8AA6A4AD3E8C743820E968E4B4C47B4F /* JitsiMeetSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JitsiMeetSDK.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A86C759660793B70B969E49EB6D6A9DB /* Pods-JitsiSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JitsiSample.debug.xcconfig"; sourceTree = "<group>"; };
+		B727DB98A1C6881297EC29277470AF6D /* Pods-JitsiSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JitsiSample-umbrella.h"; sourceTree = "<group>"; };
+		B868E442A7C5F0BE30C5184B39B5A0B2 /* Pods-JitsiSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JitsiSample.release.xcconfig"; sourceTree = "<group>"; };
+		B9655C169E4F5BAED837E07DF43F5DD5 /* Pods-JitsiSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JitsiSample-dummy.m"; sourceTree = "<group>"; };
+		C5E456A162031744009CEB16B155ABFC /* Pods-JitsiSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JitsiSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CDDD5E464E996DE103AC03BA3F288C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA81BD008773DD4126730006013A55D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09032B781DE3A821E4F82E764624893E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B28F2EF680D83F8D35907C5B86741378 /* JitsiMeetSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74B568BE11D90EBB49BF0CBF7B70D0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0630991E76FA93F90FEDEEDE8FC7E9A8 /* Pods_JitsiSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3E5A027A0E026FE2E0033D31DAC2AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				950DF96D6A22BB0BAAC2F2734A69732C /* Pods-JitsiSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8D1DF8146241F279D4002AABBF5F60B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B880EF292C2EEEB17FDF6958156EF6 /* JitsiMeet.framework */,
+				8849B74515F552F956F949D9F0D3E65C /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		950DF96D6A22BB0BAAC2F2734A69732C /* Pods-JitsiSample */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0F8B49CC410966B2D1592976B8DB7 /* Pods-JitsiSample.modulemap */,
+				C5E456A162031744009CEB16B155ABFC /* Pods-JitsiSample-acknowledgements.markdown */,
+				7C71963EF10E2B2AB3D7F9FF8C9FFA79 /* Pods-JitsiSample-acknowledgements.plist */,
+				B9655C169E4F5BAED837E07DF43F5DD5 /* Pods-JitsiSample-dummy.m */,
+				65913A1454BDF0EB8420198FF7B0700B /* Pods-JitsiSample-frameworks.sh */,
+				0A3B759F6B92685EB58950CCE5EEE4C8 /* Pods-JitsiSample-Info.plist */,
+				B727DB98A1C6881297EC29277470AF6D /* Pods-JitsiSample-umbrella.h */,
+				A86C759660793B70B969E49EB6D6A9DB /* Pods-JitsiSample.debug.xcconfig */,
+				B868E442A7C5F0BE30C5184B39B5A0B2 /* Pods-JitsiSample.release.xcconfig */,
+			);
+			name = "Pods-JitsiSample";
+			path = "Target Support Files/Pods-JitsiSample";
+			sourceTree = "<group>";
+		};
+		B28F2EF680D83F8D35907C5B86741378 /* JitsiMeetSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8D1DF8146241F279D4002AABBF5F60B5 /* Frameworks */,
+				B5EE44106D564DAC384D270F1419EF1A /* Support Files */,
+			);
+			name = JitsiMeetSDK;
+			path = JitsiMeetSDK;
+			sourceTree = "<group>";
+		};
+		B5EE44106D564DAC384D270F1419EF1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7768B7114A4851E37A115F013690EF79 /* JitsiMeetSDK.debug.xcconfig */,
+				8AA6A4AD3E8C743820E968E4B4C47B4F /* JitsiMeetSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JitsiMeetSDK";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				09032B781DE3A821E4F82E764624893E /* Pods */,
+				74B568BE11D90EBB49BF0CBF7B70D0DE /* Products */,
+				7F3E5A027A0E026FE2E0033D31DAC2AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8811EC5F68AE249988E016E7393652A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B519F89924EB6DE1D53CDEFD65EF54 /* Pods-JitsiSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CC8BFC1E620204856C47DD8973B20B0 /* Pods-JitsiSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F76904327C994E22864038C4D5DA70 /* Build configuration list for PBXNativeTarget "Pods-JitsiSample" */;
+			buildPhases = (
+				8811EC5F68AE249988E016E7393652A7 /* Headers */,
+				18A285FEF1CF012ACD3E842E7EFCC0BF /* Sources */,
+				8CDDD5E464E996DE103AC03BA3F288C7 /* Frameworks */,
+				98AAF4E88EE0A4B9F39F16C35CC135F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A77A4857DE152D06F1EECA945B5FBB /* PBXTargetDependency */,
+			);
+			name = "Pods-JitsiSample";
+			productName = "Pods-JitsiSample";
+			productReference = 0630991E76FA93F90FEDEEDE8FC7E9A8 /* Pods_JitsiSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 74B568BE11D90EBB49BF0CBF7B70D0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B40FBDAD0AB75D17C4760F4054BFF71 /* JitsiMeetSDK */,
+				2CC8BFC1E620204856C47DD8973B20B0 /* Pods-JitsiSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98AAF4E88EE0A4B9F39F16C35CC135F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A285FEF1CF012ACD3E842E7EFCC0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE80A3B55EE2A3229ED6F8CA4552CFF3 /* Pods-JitsiSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69A77A4857DE152D06F1EECA945B5FBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JitsiMeetSDK;
+			target = 5B40FBDAD0AB75D17C4760F4054BFF71 /* JitsiMeetSDK */;
+			targetProxy = C70D153AB62CF1C609DE6B028C8392A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		64B4BD28D6A408B201C3FE0A07D9C9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA6A4AD3E8C743820E968E4B4C47B4F /* JitsiMeetSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B362A650F643BC4DC60CB088C69EBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B868E442A7C5F0BE30C5184B39B5A0B2 /* Pods-JitsiSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-JitsiSample/Pods-JitsiSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JitsiSample/Pods-JitsiSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2999510819C12475E96A7C3A126FC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86C759660793B70B969E49EB6D6A9DB /* Pods-JitsiSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-JitsiSample/Pods-JitsiSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JitsiSample/Pods-JitsiSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4FE56E7D72BEEEB726A30105BB55E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7768B7114A4851E37A115F013690EF79 /* JitsiMeetSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F76904327C994E22864038C4D5DA70 /* Build configuration list for PBXNativeTarget "Pods-JitsiSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2999510819C12475E96A7C3A126FC31 /* Debug */,
+				7B362A650F643BC4DC60CB088C69EBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F617CE4545CE4E4DED6DEC4F2D3F8F38 /* Build configuration list for PBXAggregateTarget "JitsiMeetSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FE56E7D72BEEEB726A30105BB55E9F /* Debug */,
+				64B4BD28D6A408B201C3FE0A07D9C9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
